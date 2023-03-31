@@ -1,0 +1,31 @@
+{
+  "name": "accurate-timer-task-1",
+  "version": "1.0.0",
+  "description": "Напишите реализацию наиболее точного таймера.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgeny-Gutz/Accurate-timer-task-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evgeny-Gutz/Accurate-timer-task-1/issues"
+  },
+  "homepage": "https://github.com/Evgeny-Gutz/Accurate-timer-task-1#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "typescript": "^5.0.3"
+  }
+}

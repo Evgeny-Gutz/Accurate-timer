@@ -3,9 +3,8 @@ const buttonEl = document.querySelector('button');
 const timerEl = document.querySelector('span');
 
 // Напишите реализацию createTimerAnimator
-// который будет анимировать timerEl
+// который будет анимировать timerEl;
 const createTimerAnimator = () => {
-  
   return (seconds) => {};
 };
 
@@ -19,7 +18,6 @@ inputEl.addEventListener('input', () => {
 buttonEl.addEventListener('click', () => {
   const seconds = Number(inputEl.value);
 
-  console.log(seconds);
   animateTimer(seconds);
 
   inputEl.value = '';
