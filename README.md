@@ -7,3 +7,5 @@
 Форматирование таймера “hh:mm:ss”.
 
 Например 01:12:59 - один час, 12 минут, 59 секунд.
+
+### Ссылка на GitHub Pages - https://evgeny-gutz.github.io/Accurate-timer-task-1/
