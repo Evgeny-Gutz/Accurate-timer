@@ -11,8 +11,10 @@ const createTimerAnimator = () => {
 const animateTimer = createTimerAnimator();
 
 inputEl.addEventListener('input', () => {
-  // Очистите input так, чтобы в значении
-  // оставались только числа
+  // Очистите input так, чтобы в значении оставались только числа
+  const regex = /\d+/;
+  const chakedValue = inputEl.value.match(regex);
+  inputEl.value = chakedValue || '';
 });
 
 buttonEl.addEventListener('click', () => {
